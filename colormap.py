@@ -16,7 +16,7 @@ during looped applications such as those using OpenGL or pygame.
 
 NOTE: 
 
-    Other versions of this class do not have the attribute `self.colormap_array`.
+    Other versions of this class do not automatically have the attribute `colormap_array`.
     In certain applications, it wasn't desirable to populate an array with thousands
     of values and have it just sitting there when a colormap (r,g,b) or (r,g,b,a) 
     value can be accessed with one of the `get_rgbX_Y()` methods. Many tests were 
