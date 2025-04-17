@@ -55,7 +55,8 @@ USAGE:
         It does NOT cycle through cmap.names_all, as that would take forever. If you'd like to
         cycle through different values, add them to or remove them from 
             self.names_to_cycle
-        defined in __init__ below.
+        defined in __init__ below. Any of the names in cmap.names_all can be used to set
+        a new colormap name via `cmap.set_colormap_name('your_favorite_name')`
     
     r, g, b = cmap.get_rgb_f(some_scalar_value)
         When given some_scalar_value (with min_val <= some_scalar_value <= max_val) the
